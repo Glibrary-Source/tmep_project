@@ -1,0 +1,20 @@
+{
+  "total_count": 3,
+  "data": [
+    {
+      "name": "포도",
+      "price": 3000,
+      "image_path": "https://static.megamart.com/product/image/1302/13025489/13025489_6_960.jpg"
+    },
+    {
+      "name": "사과",
+      "price": 5000,
+      "image_path": "https://shop-phinf.pstatic.net/20221014_98/1665728882656rTWxX_JPEG/%EB%8C%80%ED%91%9C1.jpg?type=w860"
+    },
+    {
+      "name": "두부",
+      "price": 6000,
+      "image_path": "https://pds.joongang.co.kr/svcimg/newsletter/content/202201/19/57f0ea69-cf20-4011-9aa1-f8370ed2730d.jpg"
+    }
+  ]
+}
