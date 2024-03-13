@@ -9,10 +9,6 @@
 .history
 .svn/
 migrate_working_dir/
-android/app/google-services.json
-ios/Runner/GoogleService-Info.plist
-ios/firebase_app_id_file.json
-lib/firebase_options.dart
 
 # IntelliJ related
 *.iml
@@ -34,6 +30,12 @@ lib/firebase_options.dart
 .pub-cache/
 .pub/
 /build/
+
+/android/app/google-services.json
+/ios/Runner/GoogleService-Info.plist
+/ios/firebase_app_id_file.json
+/lib/firebase_options.dart
+
 
 # Symbolication related
 app.*.symbols
