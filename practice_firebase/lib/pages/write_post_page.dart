@@ -21,7 +21,6 @@ class _WritePostPageState extends State<WritePostPage> {
 
   @override
   void dispose() {
-    // TODO: implement dispose
     super.dispose();
     titleInputController.dispose();
     contentsInputController.dispose();

@@ -6,16 +6,26 @@ import 'package:practice_firebase/controller/user_controller.dart';
 import 'package:practice_firebase/firebase_options.dart';
 
 import 'package:practice_firebase/pages/main_page.dart';
+import 'package:shared_preferences/shared_preferences.dart';
+
+import 'global/initial_shared_preference.dart';
 
 void main() async {
 
   WidgetsFlutterBinding.ensureInitialized();
+
   await Firebase.initializeApp(
-    options: DefaultFirebaseOptions.currentPlatform
+      options: DefaultFirebaseOptions.currentPlatform
   );
 
+  prefs = await SharedPreferences.getInstance();
+
   Get.put(PostController());
-  Get.put(UserController());
+  UserController userController = Get.put(UserController());
+
+
+  await userController.autoLogin();
+
   runApp(const MyApp());
 }
 
