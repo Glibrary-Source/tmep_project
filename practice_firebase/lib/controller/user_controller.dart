@@ -21,7 +21,7 @@ class UserController extends GetxController {
 
   ///로그인 (이메일과 비번 직접쳐서 로그인하기)
   Future<void> login(String email, String password) async {
-
+    change
   }
 
   ///오토로그인 ( 앱에 저장된 내 이메일과 비번을 토대로 자동로그인하기)
